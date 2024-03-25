@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">SunsCrypt</string>
+
+    <!--    Descriptions-->
+    <string name="social_network_icon_description" translatable="false">Social network icon</string>
+    <string name="coin_logo_description" translatable="false">Coin logo</string>
+    <string name="scroll_to_top_button_description" translatable="false">Scroll to top button</string>
+
+    <!--    Buttons-->
+    <string name="clear_button" translatable="false">clear</string>
+
+    <!--    Labels-->
+    <string name="card_color_label" translatable="false">Card color</string>
+
+    <!--    Errors-->
+    <string name="error_internet_connection" translatable="false">Something is wrong with the Internet</string>
+    <string name="request_limit_exceeded" translatable="false">Request limit exceeded</string>
+
+    <!--    Placeholders-->
+    <string name="search_placeholder" translatable="false">Search…</string>
+
+    <!--    Titles-->
+    <string name="coin_team_title" translatable="false">Team</string>
+    <string name="coin_details_title" translatable="false">Details</string>
+    <string name="coin_links_title" translatable="false">Links</string>
+
+    <!--    Coin fields-->
+    <string name="started_at_field" translatable="false">"Started at: "</string>
+    <string name="development_status_field" translatable="false">"Development status: "</string>
+    <string name="org_structure_field" translatable="false">"Organizational structure: "</string>
+    <string name="open_source_field" translatable="false">"Open source: "</string>
+    <string name="proof_type_field" translatable="false">"Proof type: "</string>
+    <string name="hash_algorithm_field" translatable="false">"Algorithm: "</string>
+    <string name="hardware_wallet_field" translatable="false">"Hardware wallet: "</string>
+
+    <!--    Answers-->
+    <string name="yes_answer">Yes</string>
+    <string name="no_answer">No</string>
+</resources>

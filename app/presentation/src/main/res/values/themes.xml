@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.SunsCrypt" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.SunsCrypt.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#FF1C1B1F</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/sc_logo_foreground</item>
+        <item name="windowSplashScreenAnimationDuration">200</item>
+        <item name="postSplashScreenTheme">@style/Theme.SunsCrypt</item>
+    </style>
+</resources>

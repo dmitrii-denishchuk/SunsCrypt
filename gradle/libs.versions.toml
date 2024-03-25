@@ -1,0 +1,68 @@
+[versions]
+activity-compose = "1.8.1"
+javax-inject = "1"
+junit = "1.1.5"
+com-android-application = "8.3.1"
+com-android-library = "8.3.1"
+com-google-dagger-hilt-android = "2.48.1"
+com-google-devtools-ksp = "1.9.20-1.0.14"
+compose = "1.0.0-beta01"
+compose-bom = "2024.02.00"
+converter-moshi = "2.9.0"
+espresso-core = "3.5.1"
+hilt-android = "2.48.1"
+hilt-android-compiler = "2.48.1"
+hilt-navigation-compose = "1.1.0"
+junit-jupiter = "5.8.1"
+kotlinx-coroutines-core = "1.7.3"
+kotlinx-coroutines-test = "1.7.3"
+lifecycle-runtime-compose = "2.6.2"
+lifecycle-runtime-ktx = "2.6.2"
+mockito-kotlin = "5.2.1"
+moshi-kotlin = "1.14.0"
+moshi-kotlin-codegen = "1.13.0"
+org-jetbrains-kotlin-android = "1.8.10"
+org-jetbrains-kotlin-jvm = "1.9.20"
+org-jetbrains-dokka = "1.9.20"
+retrofit = "2.9.0"
+core-splashscreen = "1.1.0-alpha02"
+
+[libraries]
+activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activity-compose" }
+javax-inject = { module = "javax.inject:javax.inject", version.ref = "javax-inject" }
+junit = { module = "androidx.test.ext:junit", version.ref = "junit" }
+compose = { module = "com.github.bumptech.glide:compose", version.ref = "compose" }
+compose-bom = { module = "androidx.compose:compose-bom", version.ref = "compose-bom" }
+converter-moshi = { module = "com.squareup.retrofit2:converter-moshi", version.ref = "converter-moshi" }
+espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "espresso-core" }
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt-android" }
+hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hilt-android-compiler" }
+hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hilt-navigation-compose" }
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit-jupiter" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx-coroutines-core" }
+kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlinx-coroutines-test" }
+lifecycle-runtime-compose = { module = "androidx.lifecycle:lifecycle-runtime-compose", version.ref = "lifecycle-runtime-compose" }
+material3 = { module = "androidx.compose.material3:material3" }
+mockito-kotlin = { module = "org.mockito.kotlin:mockito-kotlin", version.ref = "mockito-kotlin" }
+moshi-kotlin = { module = "com.squareup.moshi:moshi-kotlin", version.ref = "moshi-kotlin" }
+moshi-kotlin-codegen = { module = "com.squareup.moshi:moshi-kotlin-codegen", version.ref = "moshi-kotlin-codegen" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+core-splashscreen = { module = "androidx.core:core-splashscreen", version.ref = "core-splashscreen" }
+ui = { module = "androidx.compose.ui:ui" }
+ui-graphics = { module = "androidx.compose.ui:ui-graphics" }
+ui-test-junit4 = { module = "androidx.compose.ui:ui-test-junit4" }
+ui-test-manifest = { module = "androidx.compose.ui:ui-test-manifest" }
+ui-tooling = { module = "androidx.compose.ui:ui-tooling" }
+ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
+
+[plugins]
+com-android-application = { id = "com.android.application", version.ref = "com-android-application" }
+com-android-library = { id = "com.android.library", version.ref = "com-android-library" }
+org-jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "org-jetbrains-kotlin-android" }
+org-jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "org-jetbrains-kotlin-jvm" }
+com-google-dagger-hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "com-google-dagger-hilt-android" }
+com-google-devtools-ksp = { id = "com.google.devtools.ksp", version.ref = "com-google-devtools-ksp" }
+org-jetbrains-dokka = { id = "org.jetbrains.dokka", version.ref = "org-jetbrains-dokka" }
+
+[bundles]
+ui = ["ui", "ui-graphics", "ui-tooling", "ui-tooling-preview"]
